@@ -1,6 +1,7 @@
 package visualizealgorithms;
 
 //Project imports
+import visualizealgorithms.bll.algorithm.BubbleSortAlgo;
 import visualizealgorithms.bll.algorithm.IAlgorithm;
 import visualizealgorithms.bll.algorithm.SelectionSortAlgo;
 
@@ -21,6 +22,7 @@ public class AlgorithmLoader {
 
         //Add implemented/selected algorithms here..
         algorithms.add(new SelectionSortAlgo());
+        algorithms.add(new BubbleSortAlgo());
 
         //more algorithms here :)
     }
