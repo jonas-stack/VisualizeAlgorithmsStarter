@@ -23,6 +23,7 @@ public class AlgorithmLoader {
         algorithms.add(new BubbleSortAlgo());
         algorithms.add(new QuickSortAlgo());
         algorithms.add(new MergeSortAlgo());
+        algorithms.add(new TimSortAlgo());
 
         //more algorithms here :)
     }

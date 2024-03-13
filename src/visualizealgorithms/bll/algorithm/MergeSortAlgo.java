@@ -10,7 +10,6 @@ public class MergeSortAlgo extends GenericAlgorithm{
     public void doWork() {
         int[] arr = (int[]) getData();
         mergeSort(arr, arr.length);
-
     }
 
     public static void mergeSort(int[] a, int n) {
